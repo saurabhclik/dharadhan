@@ -1,0 +1,38 @@
+/*Blank CSS*/
+
+
+.star-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.star-list li::before {
+    content: "★ ";
+    margin-right: 6px;
+    color: #ddaf38;
+}
+
+.inner-pages .about-us h4::after
+ {
+    display: block;
+    height: 3px;
+    font-weight: bold;
+    background-color: #121b22;
+    content: " ";
+    width: 97px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.inner-pages .about-us .who-1 h4 span {
+    color: #ef7f1a;
+}
+
+h4 span {
+    font-weight: 600;
+    color: #ef7f1a;
+}
+
+.first-footer .nav-footer {
+    display: block !important;
+}
